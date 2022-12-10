@@ -1,0 +1,4 @@
+myntra\shoes2022\conf\HelloWorldConfiguration.class
+myntra\shoes2022\health\TemplateHealthCheck.class
+myntra\shoes2022\HelloWorldService.class
+myntra\shoes2022\resource\HelloWorldResource.class

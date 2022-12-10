@@ -1,0 +1,133 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-core/0.8.1/dropwizard-core-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-util/0.8.1/dropwizard-util-0.8.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar;C:/Users/chand/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar;C:/Users/chand/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar;C:/Users/chand/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-jackson/0.8.1/dropwizard-jackson-0.8.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk7/2.5.1/jackson-datatype-jdk7-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.5.1/jackson-datatype-guava-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.5.1/jackson-module-afterburner-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.5.1/jackson-datatype-joda-2.5.1.jar;C:/Users/chand/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar;C:/Users/chand/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-validation/0.8.1/dropwizard-validation-0.8.1.jar;C:/Users/chand/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar;C:/Users/chand/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar;C:/Users/chand/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar;C:/Users/chand/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar;C:/Users/chand/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-configuration/0.8.1/dropwizard-configuration-0.8.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.5.1/jackson-dataformat-yaml-2.5.1.jar;C:/Users/chand/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar;C:/Users/chand/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-logging/0.8.1/dropwizard-logging-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-logback/3.1.1/metrics-logback-3.1.1.jar;C:/Users/chand/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar;C:/Users/chand/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar;C:/Users/chand/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.jar;C:/Users/chand/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-util/9.2.9.v20150224/jetty-util-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-metrics/0.8.1/dropwizard-metrics-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-jersey/0.8.1/dropwizard-jersey-0.8.1.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/core/jersey-server/2.17/jersey-server-2.17.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/core/jersey-common/2.17/jersey-common-2.17.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.17/jersey-guava-2.17.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/core/jersey-client/2.17/jersey-client-2.17.jar;C:/Users/chand/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.17/jersey-media-jaxb-2.17.jar;C:/Users/chand/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b10/hk2-api-2.4.0-b10.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b10/hk2-utils-2.4.0-b10.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b10/aopalliance-repackaged-2.4.0-b10.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b10/javax.inject-2.4.0-b10.jar;C:/Users/chand/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b10/hk2-locator-2.4.0-b10.jar;C:/Users/chand/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/ext/jersey-metainf-services/2.17/jersey-metainf-services-2.17.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-jersey2/3.1.1/metrics-jersey2-3.1.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.5.1/jackson-jaxrs-json-provider-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.5.1/jackson-jaxrs-base-2.5.1.jar;C:/Users/chand/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.5.1/jackson-module-jaxb-annotations-2.5.1.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.17/jersey-container-servlet-2.17.jar;C:/Users/chand/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.17/jersey-container-servlet-core-2.17.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-server/9.2.9.v20150224/jetty-server-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-io/9.2.9.v20150224/jetty-io-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.9.v20150224/jetty-webapp-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.9.v20150224/jetty-xml-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.9.v20150224/jetty-continuation-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-servlets/0.8.1/dropwizard-servlets-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-annotation/3.1.1/metrics-annotation-3.1.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-jetty/0.8.1/dropwizard-jetty-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-jetty9/3.1.1/metrics-jetty9-3.1.1.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.9.v20150224/jetty-servlet-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-security/9.2.9.v20150224/jetty-security-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.9.v20150224/jetty-servlets-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/jetty-http/9.2.9.v20150224/jetty-http-9.2.9.v20150224.jar;C:/Users/chand/.m2/repository/io/dropwizard/dropwizard-lifecycle/0.8.1/dropwizard-lifecycle-0.8.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.1/metrics-core-3.1.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.1/metrics-jvm-3.1.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-servlets/3.1.1/metrics-servlets-3.1.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.1/metrics-json-3.1.1.jar;C:/Users/chand/.m2/repository/io/dropwizard/metrics/metrics-healthchecks/3.1.1/metrics-healthchecks-3.1.1.jar;C:/Users/chand/.m2/repository/net/sourceforge/argparse4j/argparse4j/0.4.4/argparse4j-0.4.4.jar;C:/Users/chand/.m2/repository/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.2/jetty-setuid-java-1.0.2.jar;C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/target/shoes2022-model-v1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/src/main/java;C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'shoes2022-service v1 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'shoes2022-service v1 API'
+myntra.shoes2022.conf
+myntra.shoes2022.health
+myntra.shoes2022
+myntra.shoes2022.resource
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/src/main/java/myntra/shoes2022/conf/HelloWorldConfiguration.java'
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/src/main/java/myntra/shoes2022/health/TemplateHealthCheck.java'
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/src/main/java/myntra/shoes2022/HelloWorldService.java'
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-service/src/main/java/myntra/shoes2022/resource/HelloWorldResource.java'
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-core\0.8.1\dropwizard-core-0.8.1.jar = 1670681713431
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-util\0.8.1\dropwizard-util-0.8.1.jar = 1670681713621
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar = 1670681713195
+C:\Users\chand\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar = 1670681750754
+C:\Users\chand\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar = 1670681713273
+C:\Users\chand\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar = 1670681719598
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-jackson\0.8.1\dropwizard-jackson-0.8.1.jar = 1670681713936
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.1\jackson-core-2.5.1.jar = 1670681717251
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.1\jackson-databind-2.5.1.jar = 1670681726819
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk7\2.5.1\jackson-datatype-jdk7-2.5.1.jar = 1670681714498
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-guava\2.5.1\jackson-datatype-guava-2.5.1.jar = 1670681715504
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\module\jackson-module-afterburner\2.5.1\jackson-module-afterburner-2.5.1.jar = 1670681717142
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-joda\2.5.1\jackson-datatype-joda-2.5.1.jar = 1670681719135
+C:\Users\chand\.m2\repository\org\slf4j\slf4j-api\1.7.10\slf4j-api-1.7.10.jar = 1670681718578
+C:\Users\chand\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar = 1670681723273
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-validation\0.8.1\dropwizard-validation-0.8.1.jar = 1670681719958
+C:\Users\chand\.m2\repository\org\hibernate\hibernate-validator\5.1.3.Final\hibernate-validator-5.1.3.Final.jar = 1670681729793
+C:\Users\chand\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar = 1670681721562
+C:\Users\chand\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar = 1670681722755
+C:\Users\chand\.m2\repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar = 1670681723946
+C:\Users\chand\.m2\repository\org\glassfish\javax.el\3.0.0\javax.el-3.0.0.jar = 1670681728899
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-configuration\0.8.1\dropwizard-configuration-0.8.1.jar = 1670681724599
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.5.1\jackson-dataformat-yaml-2.5.1.jar = 1670681727691
+C:\Users\chand\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar = 1670681730764
+C:\Users\chand\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar = 1670681733057
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-logging\0.8.1\dropwizard-logging-0.8.1.jar = 1670681730090
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-logback\3.1.1\metrics-logback-3.1.1.jar = 1670681730341
+C:\Users\chand\.m2\repository\org\slf4j\jul-to-slf4j\1.7.10\jul-to-slf4j-1.7.10.jar = 1670681730639
+C:\Users\chand\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar = 1670681740423
+C:\Users\chand\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.10\log4j-over-slf4j-1.7.10.jar = 1670681731469
+C:\Users\chand\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.10\jcl-over-slf4j-1.7.10.jar = 1670681731672
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-util\9.2.9.v20150224\jetty-util-9.2.9.v20150224.jar = 1670681738625
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-metrics\0.8.1\dropwizard-metrics-0.8.1.jar = 1670681732459
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-jersey\0.8.1\dropwizard-jersey-0.8.1.jar = 1670681734010
+C:\Users\chand\.m2\repository\org\glassfish\jersey\core\jersey-server\2.17\jersey-server-2.17.jar = 1670681751716
+C:\Users\chand\.m2\repository\org\glassfish\jersey\core\jersey-common\2.17\jersey-common-2.17.jar = 1670681750282
+C:\Users\chand\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.17\jersey-guava-2.17.jar = 1670681752999
+C:\Users\chand\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar = 1670681741220
+C:\Users\chand\.m2\repository\org\glassfish\jersey\core\jersey-client\2.17\jersey-client-2.17.jar = 1670681743230
+C:\Users\chand\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar = 1670681744659
+C:\Users\chand\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.17\jersey-media-jaxb-2.17.jar = 1670681745738
+C:\Users\chand\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar = 1670681746503
+C:\Users\chand\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b10\hk2-api-2.4.0-b10.jar = 1670681749978
+C:\Users\chand\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b10\hk2-utils-2.4.0-b10.jar = 1670681752093
+C:\Users\chand\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b10\aopalliance-repackaged-2.4.0-b10.jar = 1670681751014
+C:\Users\chand\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b10\javax.inject-2.4.0-b10.jar = 1670681751325
+C:\Users\chand\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b10\hk2-locator-2.4.0-b10.jar = 1670681754692
+C:\Users\chand\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar = 1670681761638
+C:\Users\chand\.m2\repository\org\glassfish\jersey\ext\jersey-metainf-services\2.17\jersey-metainf-services-2.17.jar = 1670681752280
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-jersey2\3.1.1\metrics-jersey2-3.1.1.jar = 1670681752749
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.5.1\jackson-jaxrs-json-provider-2.5.1.jar = 1670681752936
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.5.1\jackson-jaxrs-base-2.5.1.jar = 1670681753627
+C:\Users\chand\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.5.1\jackson-module-jaxb-annotations-2.5.1.jar = 1670681753925
+C:\Users\chand\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.17\jersey-container-servlet-2.17.jar = 1670681753642
+C:\Users\chand\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.17\jersey-container-servlet-core-2.17.jar = 1670681754964
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-server\9.2.9.v20150224\jetty-server-9.2.9.v20150224.jar = 1670681759360
+C:\Users\chand\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar = 1670681756127
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-io\9.2.9.v20150224\jetty-io-9.2.9.v20150224.jar = 1670681757592
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-webapp\9.2.9.v20150224\jetty-webapp-9.2.9.v20150224.jar = 1670681756871
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-xml\9.2.9.v20150224\jetty-xml-9.2.9.v20150224.jar = 1670681757466
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-continuation\9.2.9.v20150224\jetty-continuation-9.2.9.v20150224.jar = 1670681757514
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-servlets\0.8.1\dropwizard-servlets-0.8.1.jar = 1670681758359
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-annotation\3.1.1\metrics-annotation-3.1.1.jar = 1670681758392
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-jetty\0.8.1\dropwizard-jetty-0.8.1.jar = 1670681759285
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-jetty9\3.1.1\metrics-jetty9-3.1.1.jar = 1670681759127
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-servlet\9.2.9.v20150224\jetty-servlet-9.2.9.v20150224.jar = 1670681761386
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-security\9.2.9.v20150224\jetty-security-9.2.9.v20150224.jar = 1670681760576
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-servlets\9.2.9.v20150224\jetty-servlets-9.2.9.v20150224.jar = 1670681763672
+C:\Users\chand\.m2\repository\org\eclipse\jetty\jetty-http\9.2.9.v20150224\jetty-http-9.2.9.v20150224.jar = 1670681761514
+C:\Users\chand\.m2\repository\io\dropwizard\dropwizard-lifecycle\0.8.1\dropwizard-lifecycle-0.8.1.jar = 1670681761182
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.1\metrics-core-3.1.1.jar = 1670681762840
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.1\metrics-jvm-3.1.1.jar = 1670681762738
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-servlets\3.1.1\metrics-servlets-3.1.1.jar = 1670681762267
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.1\metrics-json-3.1.1.jar = 1670681762335
+C:\Users\chand\.m2\repository\io\dropwizard\metrics\metrics-healthchecks\3.1.1\metrics-healthchecks-3.1.1.jar = 1670681762840
+C:\Users\chand\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.4.4\argparse4j-0.4.4.jar = 1670681764018
+C:\Users\chand\.m2\repository\org\eclipse\jetty\toolchain\setuid\jetty-setuid-java\1.0.2\jetty-setuid-java-1.0.2.jar = 1670681763474
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\shoes2022-model-v1.jar = 1670681629885
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\src\main\java = 1670681262436
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\generated-sources\annotations = 1670681764535
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\allclasses-index.html = 1670681826463
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\allpackages-index.html = 1670681826473
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\copy.svg = 1670681826574
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\element-list = 1670681826156
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\help-doc.html = 1670681826555
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\index-all.html = 1670681826529
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\index.html = 1670681826428
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\jquery-ui.overrides.css = 1670681826684
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\member-search-index.js = 1670681826497
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\module-search-index.js = 1670681826477
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\overview-summary.html = 1670681826538
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\overview-tree.html = 1670681826410
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\package-search-index.js = 1670681826477
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\script.js = 1670681826568
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\search.js = 1670681826584
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\stylesheet.css = 1670681826568
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\tag-search-index.js = 1670681826499
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-service\target\apidocs\type-search-index.js = 1670681826489

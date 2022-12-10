@@ -1,0 +1,46 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/src/main/java;C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'shoes2022-model v1 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'shoes2022-model v1 API'
+myntra.shoes2022.model
+'C:/Users/chand/Desktop/DEVOPS & AWS/practise-maven/myntra/suit/shoes2022/shoes2022-model/src/main/java/myntra/shoes2022/model/Saying.java'
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\src\main\java = 1670681262499
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\generated-sources\annotations = 1670681603238
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\allclasses-index.html = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\allpackages-index.html = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\copy.svg = 1670681631841
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\element-list = 1670681631761
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\help-doc.html = 1670681631841
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\index-all.html = 1670681631824
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\index.html = 1670681631824
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\jquery-ui.overrides.css = 1670681631887
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\member-search-index.js = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\module-search-index.js = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\overview-tree.html = 1670681631792
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\package-search-index.js = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\script.js = 1670681631841
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\search.js = 1670681631841
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\stylesheet.css = 1670681631841
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\tag-search-index.js = 1670681631808
+C:\Users\chand\Desktop\DEVOPS & AWS\practise-maven\myntra\suit\shoes2022\shoes2022-model\target\apidocs\type-search-index.js = 1670681631808

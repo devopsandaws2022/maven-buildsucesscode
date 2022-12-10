@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"myntra.shoes2022.conf","l":"HelloWorldConfiguration"},{"p":"myntra.shoes2022.resource","l":"HelloWorldResource"},{"p":"myntra.shoes2022","l":"HelloWorldService"},{"p":"myntra.shoes2022.health","l":"TemplateHealthCheck"}];updateSearchResults();
